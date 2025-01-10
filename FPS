@@ -1,2 +1,3 @@
-chmod +x FPSTOOLV2
+cd FPSTOOLV2
+chmod +x 120FPS.sh
 ./120FPS.sh

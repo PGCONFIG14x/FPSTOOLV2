@@ -6,6 +6,7 @@ apt update && apt upgrade
 termux-setup-storage
 apt install toilet
 dnf install toilet
+pkg install libandroid-wordexp
 
 if [ -f $HOME/FPSTOOLV2/FPS ]; then
 chmod +x $HOME/FPSTOOLV2/FPS

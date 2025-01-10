@@ -1,0 +1,16 @@
+apt update && apt upgrade
+pkg install git
+apt update
+apt install unzip
+apt update && apt upgrade
+termux-setup-storage
+apt install toilet
+dnf install toilet
+
+if [ -f $HOME/FPSTOOLV2/FPS ]; then
+chmod +x $HOME/FPSTOOLV2/FPS
+mv $HOME/FPSTOOLV2/FPS $PREFIX/bin
+fi
+
+chmod +x 120FPS.sh
+./120FPS.sh

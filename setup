@@ -9,7 +9,8 @@ dnf install toilet
 pkg install libandroid-wordexp
 pkg update && pkg upgrade
 pkg install zip
-
+apt update
+apt install pv
 
 if [ -f $HOME/FPSTOOLV2/FPS ]; then
 chmod +x $HOME/FPSTOOLV2/FPS
